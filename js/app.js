@@ -18,8 +18,8 @@ var isGlue;
 
 function initGame() {
 	isGlue = false;
-	var elRestarte = document.querySelector('.restart');
-	elRestarte.style.display = 'none';
+	var elRestart = document.querySelector('.restart');
+	elRestart.style.display = 'none';
 	gCountBalls = 0;
 	gGamerPos = { i: 2, j: 9 };
 	gBoard = buildBoard();
@@ -213,12 +213,12 @@ function addGlue() {
 
 function endGame(win) {
 	var str = 'game over - you ';
-	str += win ? 'wone' : 'lose';
+	str += win ? 'won' : 'lose';
 	clearInterval(gGameInterval);
 	clearInterval(gGlueInterval);
 	console.log(str);
-	var elRestarte = document.querySelector('.restart');
-	elRestarte.style.display = 'block';
+	var elRestart = document.querySelector('.restart');
+	elRestart.style.display = 'block';
 }
 
 function isOver() {
