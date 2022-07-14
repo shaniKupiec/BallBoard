@@ -2,6 +2,8 @@
 
 <p>To win the game the player needs to eat all the balls in the board</p>
 
+![image not found](https://res.cloudinary.com/trellox/image/upload/v1657785929/github%20-%20readme/balls_iuxfcu.jpg)
+
 ## Features
 - Adding new ball in a random free place every 2 seconds
 - Sticky mushrooms that unable the users movement for 3 seconds
